@@ -16,6 +16,12 @@ Python 3.8+
 All additional requirements are listed in ``pyproject.toml`` file and are
 installed automatically using the ``pip install xhtml2pdf`` method.
 
+If you want to make use of the `cairo graphics library <https://cairographics.org/>`__ to generate bitmaps, use:
+
+.. code:: bash
+
+    pip install xhtml2pdf[pycairo]
+
 
 Development environment
 -----------------------

@@ -50,6 +50,21 @@ Versions >= 0.2
 
     --------------------------------------------
 
+Unreleased
+==========
+
+**🐛 Bug-Fixes**
+
+* Remove unintentional packages from wheel (:issue:`736`)
+
+**🧹 Cleanup**
+
+* Make ``pyCairo`` dependency optional (install ``xhtml2pdf[pycairo]`` if you want to keep it) (:issue:`741`)
+
+| Thanks to the following people on GitHub for contributing to this release:
+| *carlsmedstad*, *timobrembeck*
+
+
 0.2.13
 ======
 
